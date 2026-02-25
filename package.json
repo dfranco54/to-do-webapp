@@ -1,4 +1,8 @@
 {
+  "homepage": "https://dfranco54.github.io/to-do-webapp"
+  "predeploy": "npm run build"
+  "deploy": "gh-pages -d build"
+
   "name": "to-do-list-webapp",
   "version": "0.1.0",
   "private": true,
